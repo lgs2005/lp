@@ -12,7 +12,10 @@ public class Uni6Exe04 {
         int[] valoresSoma = somarValores(valores1, valores2);
 
         System.out.println("Resultado: ");
+
         apresentarValores(valoresSoma);
+        
+        scanner.close();
     }
 
     public static int[] lerValores(Scanner scanner) {

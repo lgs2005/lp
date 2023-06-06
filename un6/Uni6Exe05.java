@@ -25,6 +25,8 @@ public class Uni6Exe05 {
         } else {
             System.out.println("Vocês se odeiam!");
         }
+
+        scanner.close();
     }
 
     public static String lerResposta(Scanner scanner) {

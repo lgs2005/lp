@@ -18,6 +18,8 @@ public class Uni6Exe06 {
         } else {
             System.out.println("Este valor não está no vetor.");
         }
+
+        scanner.close();
     }
 
     public static double[] lerVetor(Scanner scanner, int tamanho) {
